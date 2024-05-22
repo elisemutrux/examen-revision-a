@@ -1,0 +1,31 @@
+.flex-box {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.flex-box-element {
+  background-color: #42a5f5;
+  border: solid 1px #0d47a1;
+  padding: 20px;
+}
+
+.flex-box-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-box-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.flex-box-3 {
+  display: flex;
+  flex-wrap: wrap;
+
+  .flex-box-element {
+    width: 25%;
+  }
+}
